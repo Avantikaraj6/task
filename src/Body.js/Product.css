@@ -1,0 +1,131 @@
+.product-block{
+    padding-bottom:1rem;
+    margin:1rem 0px;
+    border-bottom:1px solid lightgray;
+}
+.product-container{
+    margin-top:3rem;
+}
+.product-container h3{
+    margin-bottom:2rem;
+}
+.product-block img{ 
+    border-radius:2px;
+    padding-right:2rem;
+}
+.product-block button{
+    background-color:white;
+    border:none;
+    font-size:30px;
+}
+.product-desc{
+    align-items: left !important;
+    margin-left:-10rem;
+}
+.product-desc h5, .product-desc p{
+    padding:0;
+    margin:0;
+}
+.product-desc h5{
+    font-size:16px;
+}
+.product-desc p{
+    font-size:14px;
+    padding-top:5px !important;
+}
+.star{ width:20px;
+        height:20px;
+}
+.star-rating{
+    display:flex;
+}
+.customer-review{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom:1px solid lightgrey;
+    padding-bottom:1rem;
+    margin-bottom:2rem;
+}
+.progressBar{
+    margin-top:2rem;
+    grid-column: 2 / 3;
+}
+.reviw-img img{
+    width:100px;
+    height:120px;
+    border-radius:10px;
+    padding-right:15px;
+}
+.verify-logo{
+    margin-top:5px;
+    width:20px;
+}
+.review-section p{
+    color:gray;
+}
+.review-section span{
+    color:#01d566;
+}
+.time-text{
+    color:gray !important;
+    margin-left:15rem;
+}
+
+@media only screen 
+and (min-device-width : 1150px) 
+and (max-device-width : 1299px) {
+    .product-block img{
+        width:60px !important;
+        height:30px !important;
+    }
+}
+
+@media only screen 
+and (min-device-width : 998px) 
+and (max-device-width : 1149px) {
+    .product-block img{
+        width:60px !important;
+        height:30px !important;
+    }
+}
+@media only screen 
+and (min-device-width : 778px) 
+and (max-device-width : 998px) {
+    .product-block img{
+        width:50px !important;
+        height:20px !important;
+    }
+    .product-desc{
+        padding-left:60px;
+    }
+    .product-desc h5{
+        font-size:11px;
+    }
+    .product-desc p{
+        font-size:9px;
+        padding-top:5px !important;
+    }
+    .review-section span{
+        font-size:10px;
+    }
+    .review-section p{
+       font-size:12px;
+    }
+    .time-text{
+        color:gray !important;
+        margin-left:8rem;
+    }
+    .reviw-img img{
+        width:70px;
+        height:80px;
+        padding-bottom:10px;
+    }
+}
+@media only screen 
+and (min-device-width : 1299.9px) 
+and (max-device-width : 1600px) {
+    .product-block img{
+        width:60px !important;
+        height:30px !important;
+    }
+}

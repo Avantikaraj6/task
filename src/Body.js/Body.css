@@ -1,0 +1,308 @@
+.display-img{
+    padding-left:4px;
+    width:560px;
+}
+.display-container{
+    margin-left:5rem;
+    margin-right:2rem;
+}
+.body{
+    
+    margin-top:3rem;
+}
+.side-body{
+    margin-right:2rem;
+}
+.price-div h4{
+   font-size:19px;
+}
+.dis-price{
+    color:gray;
+    text-decoration: line-through;
+    padding:0 5px;
+}
+.offer-price{
+    color:rgb(59, 201, 23);
+    font-size:12px;
+}
+.title-text{
+    font-size:17px;
+    font-weight: 500;
+}
+
+.rating img{ width:20px;
+    height:20px;
+
+}
+.rating{
+    display:flex;
+    margin-top:-0.4rem;
+}
+.rating h5{
+   font-size:13px;
+   margin-top:0.1rem;
+}
+.rating h5 span{
+    color:gray;
+    padding-left:5px;
+}
+.Offer-div{
+    border:1px solid blue;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:20px;
+    box-shadow:7px 7px lightblue;
+    
+  color:blue;
+}
+.offer-image img{
+    width:30px;
+    margin:0 10px;
+}
+.offer-text h6, .offer-text p{
+  padding:0;
+  margin:0;
+  font-size:13px;
+}
+.offer-text p{
+   color:gray;
+   font-size:12px !important;
+   padding-top:3px;
+}
+.item h6{
+    padding:0px 10px 0px 20px;
+    
+}
+.offers-container{
+    display:flex;
+    
+}
+/* .carousel-img{
+    display:flex;
+} */
+.carousel-img img{
+    width:120px;
+    border-radius:10px;
+    padding-right:15px;
+}
+.size-button button{
+    border-radius:5px;
+    background-color:white;
+    padding:8px 15px;
+    border:1px solid rgb(163, 160, 160);
+    box-shadow:3px 3px lightgray;
+    margin-right:20px;
+    font-weight: 600;
+
+}
+.size-guide{
+    display:flex;
+    justify-content: space-between;
+}
+.size-guide h5{
+    color:purple;
+}
+.add-cart button{
+    margin-top:2rem;
+    background-color:rgb(79, 199, 79);
+    font-weight:600;
+    box-shadow:4px 4px rgb(221, 176, 91);
+    border-radius:10px;
+    width:90%;
+    padding:12px 0px;
+    border:1px solid rgb(21, 124, 165);
+}
+.delivery-details{
+    margin-top:4rem;
+}
+.delivery-details input{
+    padding:15px;
+    border-radius:10px 0px 0px 10px;
+    width:68%;
+    border:1px solid rgb(21, 124, 165);
+    box-shadow: 3px 3px skyblue;
+
+}
+.delivery-details span button{
+    padding:15px;
+    border-radius:0px 10px 10px 0px;
+    width:18%;
+    border:1px solid rgb(21, 124, 165);
+    color:rgb(21, 124, 165);
+    box-shadow: 3px 3px skyblue;
+    font-weight: 600;;
+}
+@media only screen 
+and (min-device-width : 1299.9px) 
+and (max-device-width : 1600px) {
+    .display-img{
+        padding-left:4px;
+        width:360px;
+        padding-bottom:5px;
+    }
+    .price-div h2{
+        font-size:22px;
+    }
+    .side-head{
+        font-size:18px;
+        margin-top:2rem;
+    }
+    .offer-image img{
+        width:30px;
+        margin:0 10px;
+    }
+    .offer-text h6{
+        padding-top:8px;
+        font-size:12px;
+    }
+    .offer-text p{
+        font-size:12px !important;
+        line-height:12px;
+        padding-bottom:3px;
+    }
+    .item h6{
+        font-size:12px !important;
+        padding:0px 7px 0px 7px !important;
+    }
+    .size-button{
+        margin-top:1rem;
+    }
+    .size-button button{
+        margin-bottom:1rem;
+    }
+    .delivery-details span button{
+        width:22%;
+    }
+}
+@media only screen 
+and (min-device-width : 998px) 
+and (max-device-width : 1299px) {
+    .display-img{
+        padding-left:4px;
+        width:325px;
+        padding-bottom:5px;
+    }
+    .price-div h2{
+        font-size:22px;
+    }
+    .side-head{
+        font-size:18px;
+        margin-top:2rem;
+    }
+    .offer-image img{
+        width:20px;
+        margin:0 8px;
+    }
+    .offer-text h6{
+        padding-top:5px;
+        font-size:10px;
+    }
+    .offer-text p{
+        font-size:8px !important;
+        line-height:8px;
+        padding-bottom:3px;
+    }
+    .item h6{
+        font-size:10px !important;
+        padding:0px 7px 0px 7px !important;
+    }
+    .size-button{
+        margin-top:1rem;
+    }
+    .size-button button{
+        margin-bottom:1rem;
+    }
+    .delivery-details span button{
+        width:22%;
+    }
+}
+
+@media only screen 
+and (min-device-width : 1034px) 
+and (max-device-width : 1149px) {
+    .display-img{
+        width:280px !important;
+    }
+    .side-bod{
+        margin-left:-1rem !important;
+    }
+    .delivery-details span button{
+        width:25%;
+    }
+}
+@media only screen 
+and (min-device-width : 998px) 
+and (max-device-width : 1043px) {
+    .display-img{
+        width:270px !important;
+    }
+    .side-bod{
+        margin-left:-1rem !important;
+    }
+    .delivery-details span button{
+        width:25%;
+    }
+}
+@media only screen 
+and (min-device-width : 784px) 
+and (max-device-width : 874px) {
+    .display-img{
+        width:200px !important;
+    }
+}
+@media only screen 
+and (min-device-width : 794px) 
+and (max-device-width : 998px) {
+    .display-img{
+        width:230px ;
+    }
+    .side-bod{
+        margin-left:-1rem !important;
+    }
+    .delivery-details span button{
+        width:32%;
+    }
+    .price-div h2{
+        font-size:17px;
+    }
+    .side-head{
+        font-size:14px;
+        margin-top:2rem;
+    }
+    .offer-image img{
+        width:20px;
+        margin:0 8px;
+    }
+    .offer-text h6{
+        padding-top:5px;
+        font-size:7px;
+    }
+    .offer-text p{
+        font-size:6px !important;
+        line-height:8px;
+        padding-bottom:3px;
+    }
+    .item h6{
+        font-size:6px !important;
+        padding:0px 7px 0px 7px !important;
+    }
+    .size-button{
+        margin-top:1rem;
+    }
+    .size-button button{
+        margin-bottom:1rem;
+    }
+    .carousel-img img{
+        width:80px;
+        border-radius:10px;
+        padding-right:15px;
+        padding-bottom:10px;
+    }
+    .size-button button{
+        font-weight: 600;
+        font-size:13px;
+    
+    }
+}
